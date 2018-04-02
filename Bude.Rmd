@@ -151,7 +151,11 @@ ggmap(Bude_watercolor) +
   geom_label(x = cricket_grounds_coord$lon, y = cricket_grounds_coord$lat, label = "Cricket Grounds", hjust = 1, vjust = 1) +
   geom_point(mapping = aes(x = barrel$lon, y = barrel$lat)) +
   geom_label(x = barrel$lon, y = barrel$lat, label = "The Barrel at Bude", hjust = 1, vjust = 1) +  
-  geom_path(aes(x = lon, y = lat), colour = "red", size = 1.5,
+  geom_path(aes(x = lon, y = lat), colour = "green", size = 1.5,
             data = route_df, lineend = "round")
 ```
 
+#Images
+![The Beach At Bude](beach.jpg)
+
+![Tommy Jacks Beach Hotel](tommy.jpg)
